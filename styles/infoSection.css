@@ -1,0 +1,36 @@
+.outerContainer {
+    display: flex;
+    flex-direction: column;
+
+    margin: 50px 540px 0px 570px;
+}
+
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.infoUpperSection {
+    margin: 0px 0px 10px 0px;
+}
+
+.payoutText {
+    font-size: 30px;
+    font-weight: bold;
+    
+    color: white;
+}
+
+.infoLowerSection {
+    display: flex;
+}
+
+.withdrawBox {
+    margin-right: 40px;
+}
+
+.withdrawBox, .documentBox {
+    color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+}

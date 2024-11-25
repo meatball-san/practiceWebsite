@@ -1,0 +1,70 @@
+.balanceContainer {
+    background-color: rgb(36, 36, 36);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 50px;
+
+    border-radius: 10px;
+
+    padding: 10px 0px 10px 0px;
+}
+
+.balanceLeftSection {
+    display: flex;
+    flex-direction: column;
+
+    line-height: 40px;
+
+    margin-left: 40px;
+}
+
+.balanceText {
+    font-size: 12px;
+    color: white;
+}
+
+.balance {
+    font-size: 40px;
+    color: white;
+}
+
+.withdrawTime {
+    font-size: 12px;
+    color: lightgray;
+}
+
+.balanceRightSection {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+    margin-right: 40px;
+}
+
+.withdrawButton {
+    padding: 15px 30px 15px 30px;
+    font-weight: bold;
+    font-size: 14px;
+
+    background-color: rgb(161, 161, 161);
+    border: none;
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    margin-bottom: 20px;
+}
+
+.withdrawtxt {
+    color: lightgray;
+    font-size: 14px;
+}
+
+.withdrawtxtSpan {
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
