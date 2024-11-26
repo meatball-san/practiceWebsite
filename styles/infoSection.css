@@ -6,6 +6,11 @@
     /*margin: 50px 540px 0px 570px;*/
 }
 
+@media only screen and (max-width: 650px) {
+    .outerContainer {
+        width: 100%;
+    }
+}
 
 .infoContainer {
     display: flex;
