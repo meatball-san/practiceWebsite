@@ -12,6 +12,12 @@
     padding: 10px 0px 10px 0px;
 }
 
+@media (max-width: 650px) {
+    .balanceContainer {
+        flex-direction: column;
+    }
+}
+
 .balanceLeftSection {
     display: flex;
     flex-direction: column;
